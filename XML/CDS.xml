@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
+<ClinicalDocument xsi:schemaLocation="urn:hl7-org:v3 http://CDA.xsd" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3">
+  <realmCode code="India" />
+  <typeId root="1.2.33.1" extension="POCD_HD000040" />
+  <templateId root="1.2.33.2" extension="2015-08-01" />
+  <templateId root="1.2.33.3" extension="2015-08-01" />
+  <id root="1.2.33.4" assigningAuthorityName="MKDigital" />
+  <code code="45677-9" displayName="TOC" codeSystem="8.9.0" codeSystemName="LOINC" />
+  <title>MU2</title>
+  <effectiveTime value="20170921124308" />
+  <confidentialityCode code="N" displayName="Normal Sharing" codeSystem="1.23.333" codeSystemName="Confidentiality" />
+  <languageCode code="en-India" />
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.3.5909.1247536505.1" extension="0C923CE132DB469F92" />
+      <addr>
+        <streetAddressLine>Address Line1</streetAddressLine>
+        <city>city</city>
+        <state>state</state>
+        <postalCode>012345</postalCode>
+        <country>India</country>
+      </addr>
+      <telecom nullFlavor="UNK" />
+      <patient>
+        <name use="L">
+          <given>My</given>
+          <given nullFlavor="NI" />
+          <family>Name</family>
+        </name>
+        <administrativeGenderCode code="F" displayName="Female" codeSystem="22222" codeSystemName="AdministrativeGender" />
+        <birthTime value="19470501" />
+        <raceCode code="777777-3" displayName="White" codeSystem="111 codeSystemName="CDC - Race" />
+        <sdtc:raceCode nullFlavor="1222" />
+        <ethnicGroupCode code="123" displayName="LATINO" codeSystem="3333" codeSystemName="CDC - Race and Ethnicity" />
+        <languageCommunication>
+          <languageCode code="en" />
+        </languageCommunication>
+      </patient>
+    </patientRole>
+  </recordTarget>
+ 
+</ClinicalDocument>
